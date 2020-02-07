@@ -4,17 +4,17 @@ module.exports = [
   {
     method: 'GET',
     path: '/',
-    handler: (request, h) => {
-
-        return 'Hello World!';
+    handler: Controller.sayHello,
+    description: Hello World!',
+    tags: ['api']
   }
 }
   ,
   {  method: 'GET',
       path: '/items',
-      handler: (request, h) => {
-
-          return 'This should return a number of items.';
+      handler: Controller.getItems,
+      description: 'This should return a number of items.',
+      tags: ['api'];
   }
 }
 ]

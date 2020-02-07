@@ -1,5 +1,8 @@
 module.exports = {
+  sayHello() {
+    return 'Hello World!';
+  },
   getItems() {
-    return ['item1','item2']
+    return 'This should return a number of items.';
   }
 }
