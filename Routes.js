@@ -13,6 +13,6 @@ module.exports = [
       path: '/items',
       handler: Controller.getItems,
       description: 'This should return a number of items.',
-      tags: ['api'];
+      tags: ['api']
   }
 ]
