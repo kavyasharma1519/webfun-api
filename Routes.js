@@ -5,7 +5,7 @@ module.exports = [
     method: 'GET',
     path: '/',
     handler: Controller.sayHello,
-    description: Hello World!',
+    description: 'Hello World!',
     tags: ['api']
   }
 }
