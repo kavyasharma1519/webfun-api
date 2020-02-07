@@ -8,7 +8,6 @@ module.exports = [
     description: 'Hello World!',
     tags: ['api']
   }
-}
   ,
   {  method: 'GET',
       path: '/items',
@@ -16,5 +15,4 @@ module.exports = [
       description: 'This should return a number of items.',
       tags: ['api'];
   }
-}
 ]
